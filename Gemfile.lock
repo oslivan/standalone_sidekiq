@@ -1,0 +1,30 @@
+GEM
+  remote: https://gems.ruby-china.com/
+  specs:
+    connection_pool (2.2.2)
+    nio4r (2.5.2)
+    puma (4.3.3)
+      nio4r (~> 2.0)
+    rack (2.2.2)
+    rack-protection (2.0.8.1)
+      rack
+    redis (4.1.3)
+    redis-namespace (1.7.0)
+      redis (>= 3.0.4)
+    sidekiq (6.0.6)
+      connection_pool (>= 2.2.2)
+      rack (~> 2.0)
+      rack-protection (>= 2.0.0)
+      redis (>= 4.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  puma
+  redis
+  redis-namespace
+  sidekiq
+
+BUNDLED WITH
+   2.1.4
