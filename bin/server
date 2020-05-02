@@ -1,2 +1,2 @@
 bundle install
-bundle exec sidekiq -r $PWD/config/sidekiq.rb -C config/sidekiq.yml
+bundle exec sidekiq -v -r $PWD/config/sidekiq.rb -C config/sidekiq.yml
